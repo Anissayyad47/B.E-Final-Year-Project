@@ -1,0 +1,134 @@
+.Home-container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+
+}
+.Home-container-in{
+    margin-top: 20px;
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+}
+/* image generation div */
+.image-generation{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-text{
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid;
+}
+.btn-generate-image{
+    width: 250px;
+    padding: 10px;
+    background-color: rgb(53, 53, 241);
+    font-size: larger;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 50px;
+}
+.btn-generate-image:hover{
+    background-color: rgb(37, 37, 177);
+}
+.image-container{
+    width: 90%;
+    height: 500px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(235, 232, 232);
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
+}
+.image-container img{
+    width: 50%;
+    height: 100%;
+    border: 1px solid rgb(192, 191, 191);
+    border-radius: 10px;
+}
+/* Border */
+.Border{
+    border: 1px solid;
+    border-style: dashed;
+    margin-right: 30px;
+}
+/* Virtual Try On */
+form{
+    width: 90%;
+}
+.upload-image{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.model-images{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.model-images img{
+    border-radius: 5px;
+    border: 1px solid rgb(219, 213, 213);
+}
+.model-images img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.try-on{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(216, 211, 211);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.selected-modle{
+    border: 2px solid rgb(0, 0, 0);
+    border-style: dashed;
+    border-radius: 10px;
+    width: 320px;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.try-on-image-div{
+    border: 1px solid red;
+    width: 100%;
+    height: 200px;
+}
+.try-on-result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    width: 320px;
+    height: 430px;
+    border: 2px solid rgb(0, 0, 0);
+    border-style: dashed;
+    border-radius: 10px;
+}
+.try-on-image{
+    border: 1px solid rgb(202, 198, 198);
+    border-radius: 10px;
+    width: 100%;
+}

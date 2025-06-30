@@ -1,0 +1,10 @@
+.Main-Container{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    width: 80%;
+}
+#ex{
+    border: 1px solid;
+    width: 700px;
+}
